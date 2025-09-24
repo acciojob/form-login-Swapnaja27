@@ -18,6 +18,6 @@ function getFormvalue() {
       // Prevent form from reloading the page
       return false;
 }
-document.getElementByTag("button").addEventListener("click",()=>{
+document.querySelector("button").addEventListener("click",()=>{
 	getFormvalue();
 })
